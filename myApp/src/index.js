@@ -110,11 +110,11 @@ import {
     });
 }
 
-loadIFC("../Steel_mockup.ifc");
-loadIFC("../Steel_mockup2.ifc")
+loadIFC("../Steel_mockup-Fdn.ifc");
+loadIFC("../Steel_mockup-Steel.ifc")
 
 // == the code below also does not work == //
-//   ifcLoader.load("../Steel_mockup.ifc", (ifcModel) => {
+//   ifcLoader.load("../Steel_mockup-Fdn.ifc", (ifcModel) => {
     
 //     // ifcModel.material = new MeshLambertMaterial({
 //     //     transparent: true,
@@ -126,7 +126,7 @@ loadIFC("../Steel_mockup2.ifc")
 //     ifcModels.push(ifcModel);
 //     scene.add(ifcModel);
 // });
-// ifcLoader.load("../Steel_mockup2.ifc", (ifcModel) => {
+// ifcLoader.load("../Steel_mockup-Steel.ifc", (ifcModel) => {
 //     // ifcModel.material = new MeshLambertMaterial({
 //     //     transparent: true,
 //     //     opacity: 0.7,
