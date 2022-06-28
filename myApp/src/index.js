@@ -111,8 +111,10 @@ import {
 }
 
 loadIFC("../Steel_mockup.ifc");
-loadIFC("../TestModel1.ifc")
-//   ifcLoader.load("../HS472_L00_FDNC_Piles.ifc", (ifcModel) => {
+loadIFC("../Steel_mockup2.ifc")
+
+// == the code below also does not work == //
+//   ifcLoader.load("../Steel_mockup.ifc", (ifcModel) => {
     
 //     // ifcModel.material = new MeshLambertMaterial({
 //     //     transparent: true,
@@ -124,7 +126,7 @@ loadIFC("../TestModel1.ifc")
 //     ifcModels.push(ifcModel);
 //     scene.add(ifcModel);
 // });
-// ifcLoader.load("../HS472_L00_STCN_FDCN.ifc", (ifcModel) => {
+// ifcLoader.load("../Steel_mockup2.ifc", (ifcModel) => {
 //     // ifcModel.material = new MeshLambertMaterial({
 //     //     transparent: true,
 //     //     opacity: 0.7,
